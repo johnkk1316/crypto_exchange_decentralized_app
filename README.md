@@ -7,7 +7,6 @@ Crypto-Exchange-Decentalized-App.
 ## Features
 
 - Responsive Crypto-Exchange-Decentalized-App
-- Smooth scrolling in each section.
 - Cross platform.
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
