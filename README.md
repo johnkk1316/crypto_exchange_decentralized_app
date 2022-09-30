@@ -1,135 +1,60 @@
-This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
-## Project Structure
+# Crypto-Exchange-Decentalized-App.
 
-The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
+Crypto-Exchange-Decentalized-App.
 
-Workspaces makes it possible to setup multiple packages in such a way that we only need to run `yarn install` once to install all of them in
-a single pass. Dependencies are hoisted at the root.
 
-```
-my-eth-app
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-└── packages
-    ├── contracts
-    │   ├── README.json
-    │   ├── package.json
-    │   └── src
-    │       ├── abis
-    │       │   ├── erc20.json
-    │       │   └── ownable.json
-    │       ├── addresses.js
-    │       └── index.js
-    ├── react-app
-    │   ├── README.md
-    │   ├── node_modules
-    │   ├── package.json
-    │   ├── public
-    │   │   ├── favicon.ico
-    │   │   ├── index.html
-    │   │   ├── logo192.png
-    │   │   ├── logo512.png
-    │   │   ├── manifest.json
-    │   │   └── robots.txt
-    │   └── src
-    │       ├── App.css
-    │       ├── App.js
-    │       ├── App.test.js
-    │       ├── ethereumLogo.svg
-    │       ├── index.css
-    │       ├── index.js
-    │       ├── serviceWorker.js
-    │       └── setupTests.js
-    └── subgraph
-        ├── README.md
-        ├── abis
-        │   └── erc20.json
-        ├── package.json
-        ├── schema.graphql
-        ├── src
-        │   └── mappings
-        │       ├── tokens.ts
-        │       └── transfers.ts
-        └── subgraph.yaml
+## Features
+
+- Responsive Crypto-Exchange-Decentalized-App
+- Smooth scrolling in each section.
+- Cross platform.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+
+
+    
+    
+    
+    
+    
+
+## Tech Stack
+
+**Tech Stack:** HTML, CSS, JS, React, Cranq etc
+
+## Cranq Development Screenshots
+
+![Cranq screenshot.](https://user-images.githubusercontent.com/88212270/193360378-deb75a04-b5af-4f14-8acb-93fddb59dfde.png)
+
+![Cranq screenshot.](https://user-images.githubusercontent.com/88212270/193360404-6cec4787-1a3c-4891-b376-aa0b495bb908.png)
+
+![Cranq screenshot.](https://user-images.githubusercontent.com/88212270/193360409-76efd514-0b2a-4448-aaa6-6c13ac05ea2c.png)
+
+
+## Screenshots
+
+![App a smartphone.](https://user-images.githubusercontent.com/88212270/193360973-e3bce173-1f54-4628-8602-56bae45edd88.png)
+
+![On an Ipad.](https://user-images.githubusercontent.com/88212270/193361007-76421c64-9347-4c17-ab22-1309ae5828ba.png)
+
+![On a Laptop.](https://user-images.githubusercontent.com/88212270/193361013-ae79d3a0-0e5f-43a0-958b-20ce0f42c47a.png)
+
+## Deployment
+
+To deploy this project run
+
+```bash
+ https://uniswap-clonejkk.netlify.app
 ```
 
-Owing to this dependency on Yarn Workspaces, Create Eth App can't be used with npm.
 
-## Available Scripts
+## Authors
 
-In the project directory, you can run:
+- [@johnkk1316](https://github.com/johnkk1316)
 
-### React App
 
-#### `yarn react-app:start`
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/john-kinyanjui-82374120a/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/@Vykin98)
 
-Runs the React app in development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will automatically reload if you make changes to the code.<br>
-You will see the build errors and lint warnings in the console.
-
-#### `yarn react-app:test`
-
-Runs the React test watcher in an interactive mode.<br>
-By default, runs tests related to files changed since the last commit.
-
-[Read more about testing React.](https://facebook.github.io/create-react-app/docs/running-tests)
-
-#### `yarn react-app:build`
-
-Builds the React app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the React documentation on [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `yarn react-app:eject`
-
-**Note: this is a one-way operation. Once you `react-app:eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` the React app at any time. This command will
-remove the single build dependency from your React package.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right
-into the `react-app` package so you have full control over them. All of the commands except `react-app:eject` will still work,
-but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `react-app:eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-### Subgraph
-
-The Graph is a tool for for indexing events emitted on the Ethereum blockchain. It provides you with an easy-to-use GraphQL API. <br/>
-
-To learn more, check out the [The Graph documentation](https://thegraph.com/docs).
-
-#### `yarn subgraph:codegen`
-
-Generates AssemblyScript types for smart contract ABIs and the subgraph schema.
-
-#### `yarn subgraph:build`
-
-Compiles the subgraph to WebAssembly.
-
-#### `yarn subgraph:auth`
-
-Before deploying your subgraph, you need to sign up on the
-[Graph Explorer](https://thegraph.com/explorer/). There, you will be given an access token. Drop it in the command
-below:
-
-```sh
-GRAPH_ACCESS_TOKEN=your-access-token-here yarn subgraph:auth
-```
-
-#### `yarn subgraph:deploy`
-
-Deploys the subgraph to the official Graph Node.<br/>
-
-Replace `paulrberg/create-eth-app` in the package.json script with your subgraph's name.
-
-You may also want to [read more about the hosted service](https://thegraph.com/docs/quick-start#hosted-service).
