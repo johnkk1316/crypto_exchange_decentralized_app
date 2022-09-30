@@ -40,10 +40,12 @@ const Exchange = ({ pools }) => {
                     disabled={"!canApprove"}
                     onClick={() => {}}
                     className={
-                        "canApprove" 
+                    
+                        `${
+                            "canApprove" 
                             ? "bg-site-pink text-white"
                             : "bg-site-dim2 text-site-dim2"
-                        `${styles.actionButton}`
+                        }${styles.actionButton}`  
                     }
                 >
                     {isApproving ? "Approving..." : "Approve"}
@@ -53,10 +55,12 @@ const Exchange = ({ pools }) => {
                         disabled={"!canSwap"}
                         onClick={() => {}}
                         className={
-                            "canSwap" 
+                    
+                            `${
+                                "canSwap" 
                                 ? "bg-site-pink text-white"
                                 : "bg-site-dim2 text-site-dim2"
-                            `${styles.actionButton}`
+                            }${styles.actionButton}`  
                         }
                     >
                         {isSwapping ? "Swapping..." : "hasEnoughBalance" ? "Swap" :  "Insufficient Balance"}
@@ -64,7 +68,7 @@ const Exchange = ({ pools }) => {
             }
             
             {"failureMessage" && !"resetState" ? (
-                <p className={styles.message}>{"failureMessage"}</p>
+                <p className={styles.message}>{"fail  ureMessage"}</p>
             ) : "successMessage"  ? (
                 <p className={styles.message}>{"successMessage"}</p>
             ) : ""}
